@@ -12,11 +12,11 @@ nav a {
 }
 
 nav a:hover {
-    color: purple;
+    color: #FF69B4;
 }
 
 .selected {
-    color: purple;
+    color: #FF69B4;
 }
 
 nav ul {
@@ -62,7 +62,7 @@ header h1 {
 
 .grid {
     display:flex;
-    background: #eee;
+    background: #FFF;
     width: 1200px;
     height: auto;
   }
@@ -110,4 +110,10 @@ header h1 {
 .small-logo {
     max-width: 200px;
     height: auto;
+}
+
+.social-media a {
+    color: #FF69B4;
+    margin: auto;
+    text-decoration: none;
 }
