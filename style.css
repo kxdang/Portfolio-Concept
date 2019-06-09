@@ -11,6 +11,10 @@ nav a {
     margin: 0px;
 }
 
+nav a:hover {
+    color: purple;
+}
+
 nav ul {
     list-style: none;
 }
@@ -42,20 +46,23 @@ header h1 {
 .container {
     display: flex;
     justify-content: center;
+    
 }
 
-/* img {
-    height: 300px;
-    width: 160px;
-    margin: 4px;
-} */
+.container-about {
+    padding-top: 30px;
+    padding-left: 20%;
+    padding-right: 20%;
+}
 
 
 .grid {
+    display:flex;
     background: #eee;
     width: 1200px;
     height: auto;
   }
+
 
 .grid:after {
     content: '';
@@ -73,3 +80,30 @@ header h1 {
     padding: 10px;
 }
 
+.client-heading {
+    display: flex;
+    justify-content: center;
+}
+
+.companies {
+    display: flex;
+    align-content: center;
+    
+}
+
+.exhibition {
+
+}
+
+.companies li {
+    list-style: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    vertical-align: middle;
+}
+
+
+.small-logo {
+    max-width: 200px;
+    height: auto;
+}
